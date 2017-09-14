@@ -1,0 +1,15 @@
+// Search form
+.search-form {
+   .search-field {
+     @extend .form-control;
+     margin-bottom: .5rem;
+   }
+   label {
+      margin-bottom: 0;
+      display: block;
+   }
+   input[type=submit] {
+     @extend .btn;
+     @extend .btn-secondary;
+  }
+}

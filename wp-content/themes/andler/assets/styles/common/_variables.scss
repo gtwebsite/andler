@@ -1,0 +1,51 @@
+// Options
+$enable-rounded:                false;
+$enable-transitions:            true;
+
+// Container
+$container-max-widths: (
+   sm: 540px,
+   md: 720px,
+   lg: 960px,
+   xl: 1170px
+);
+
+// Small Grid
+$grid-gutter-width-sm:           10px;
+$grid-gutter-widths-sm: (
+   xs: $grid-gutter-width-sm,
+   sm: $grid-gutter-width-sm,
+   md: $grid-gutter-width-sm,
+   lg: $grid-gutter-width-sm,
+   xl: $grid-gutter-width-sm
+);
+
+$grid-gutter-width-xs:           2px;
+$grid-gutter-widths-xs: (
+   xs: $grid-gutter-width-xs,
+   sm: $grid-gutter-width-xs,
+   md: $grid-gutter-width-xs,
+   lg: $grid-gutter-width-xs,
+   xl: $grid-gutter-width-xs
+);
+
+
+// Colors
+$white:								   #fff;
+$black:								   #000;
+$border-primary:                 #707070;
+$body-bg:                        #f9f9f9;
+$brand-primary:                  #0099d8;
+$brand-secondary:                darken($brand-primary, 15%);
+
+// Fonts
+$font-family-base:              'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-size-secondary:            0.875rem; 
+$headings-font-family:           $font-family-base;
+$headings-font-weight:           400;
+
+// Margin / Padding
+$menu-height:                    31px;
+$spacing-1:                      1.563rem;
+$spacing-2:                      4.375rem;
+$spacer:                         $spacing-1;
